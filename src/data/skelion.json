@@ -1,0 +1,168 @@
+{
+    "days": [
+        {
+            "day": 1,
+            "type": "Kill",
+            "targets": [
+                {
+                    "count": 40,
+                    "name": "Quve"
+                },
+                {
+                    "count": 15,
+                    "name": "Dullahan"
+                },
+                {
+                    "count": 5,
+                    "name": "Bloody Murderer"
+                }
+            ],
+            "startLocation": "/navi niflheim 288/269",
+            "startNpcName": "Grave Herald",
+            "endLocation": "/navi niflheim 288/269",
+            "endNpcName": "Grave Herald",
+            "items": [],
+            "zone": "Niflheim Fields"
+        },
+        {
+            "day": 2,
+            "type": "Kill",
+            "targets": [
+                {
+                    "count": 12,
+                    "name": "Garling"
+                },
+                {
+                    "count": 10,
+                    "name": "Skelion"
+                },
+                {
+                    "count": 40,
+                    "name": "Quve"
+                }
+            ],
+            "startLocation": "/navi nif_fild01 234/249",
+            "startNpcName": "Apprentice Gravekeeper",
+            "endLocation": "/navi nif_fild01 234/249",
+            "endNpcName": "Apprentice Gravekeeper",
+            "items": [],
+            "zone": "Niflheim Event Dungeon"
+        },
+        {
+            "day": 3,
+            "type": "Gather",
+            "targets": [],
+            "startLocation": "/navi alberta 220/30",
+            "startNpcName": "Old Sage of Bones",
+            "endLocation": "/navi alberta 220/30",
+            "endNpcName": "Old Sage of Bones",
+            "items": [
+                {
+                    "itemName": "Skelion Bone Fragments",
+                    "count": "25",
+                    "monster": "Any undead lvl 50+",
+                    "soldByVendor": false
+                },
+                {
+                    "itemName": "Corrupted Soul",
+                    "count": "5",
+                    "monster": "Any undead lvl 50+",
+                    "soldByVendor": false
+                }
+            ],
+            "zone": "Niflheim Event Dungeon"
+        },
+        {
+            "day": 4,
+            "type": "Gather",
+            "targets": [],
+            "startLocation": "/navi prontera 156/136",
+            "startNpcName": "Suspicious Coffin",
+            "endLocation": "/navi prontera 156/136",
+            "endNpcName": "Suspicious Coffin",
+            "items": [
+                {
+                    "itemName": "Wing of Red Bat",
+                    "count": "30",
+                    "monster": "Drainliar",
+                    "soldByVendor": false
+                },
+                {
+                    "itemName": "Pumpkin",
+                    "count": "45",
+                    "monster": "",
+                    "soldByVendor": true
+                }
+            ],
+            "zone": "Aldebaran / Sphinx Dungeon"
+        },
+        {
+            "day": 5,
+            "type": "Gather",
+            "targets": [],
+            "startLocation": "/navi niflheim 217/189",
+            "startNpcName": "Mystical Enchanter",
+            "endLocation": "/navi niflheim 217/189",
+            "endNpcName": "Mystical Enchanter",
+            "items": [
+                {
+                    "itemName": "Shrimp",
+                    "count": "20",
+                    "monster": "Leaf Cat",
+                    "soldByVendor": false
+                },
+                {
+                    "itemName": "Tassel",
+                    "count": "30",
+                    "monster": "Tamruan",
+                    "soldByVendor": false
+                }
+            ],
+            "zone": "Ayothaya Dungeon"
+        },
+        {
+            "day": 6,
+            "type": "Gather",
+            "targets": [],
+            "startLocation": "/navi izlude 159/131",
+            "startNpcName": "Cool Devi",
+            "endLocation": "/navi geffen 142/130",
+            "endNpcName": "Hoirin",
+            "items": [
+                {
+                    "itemName": "Pumpkin Mojo",
+                    "count": "10",
+                    "monster": "Deviruchi / Nightmare / Jakk",
+                    "soldByVendor": false
+                },
+                {
+                    "itemName": "Pumpkin",
+                    "count": "45",
+                    "monster": "",
+                    "soldByVendor": true
+                }
+            ],
+            "zone": "Ayothaya Dungeon"
+        },
+        {
+            "day": 7,
+            "type": "Kill",
+            "targets": [
+                {
+                    "count": 40,
+                    "name": "Zombie / Bongun / Munak"
+                },
+                {
+                    "count": 30,
+                    "name": "Ghoul"
+                }
+            ],
+            "startLocation": "/navi payon 162/174",
+            "startNpcName": "Halloween Magician",
+            "endLocation": "/navi payon 162/174",
+            "endNpcName": "Halloween Magician",
+            "items": [],
+            "zone": "Glast Heim Churchyard / Payon Dungeon / Geffen Dungeon"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "easy": [
+    { "id": "Easy 1", "mobs": [{ "count": 50, "name": "Miyabi Doll" }, { "count": 50, "name": "Firelock Soldier" }] },
+    { "id": "Easy 2", "mobs": [{ "count": 40, "name": "Nightmare" }, { "count": 50, "name": "Sohee" }] },
+    { "id": "Easy 3", "mobs": [{ "count": 30, "name": "Quve" }, { "count": 30, "name": "Hylozoist" }, { "count": 30, "name": "Lude" }] }
+  ],
+  "hard": [
+    { "id": "Hard 1", "mobs": [{ "count": 24, "name": "Laurell Weinder" }, { "count": 30, "name": "Remover" }] },
+    { "id": "Hard 2", "mobs": [{ "count": 40, "name": "Skeleton Prisoner" }, { "count": 10, "name": "Flame Skull" }] },
+    { "id": "Hard 3", "mobs": [{ "count": 10, "name": "Hell hound" }, { "count": 20, "name": "Dullahan" }, { "count": 30, "name": "Evil Druid" }] },
+    { "id": "Hard 4", "mobs": [{ "count": 30, "name": "Khalitzburg" }, { "count": 40, "name": "Raydric" }] },
+    { "id": "Hard 5", "mobs": [{ "count": 90, "name": "Gibbet" }] },
+    { "id": "Hard 6", "mobs": [{ "count": 5, "name": "Bloody Murderer" }, { "count": 40, "name": "Owl Duke" }] }
+  ]
+}
