@@ -17,7 +17,14 @@ export function HomePage() {
         See official event documentation
         <Anchor href="https://wiki.uaro.net/halloween-event-2026"> here</Anchor>
       </Text>
-      <Tabs onChange={setTab} value={activeTab}>
+      <Tabs
+        onChange={(value) =>
+          setTab(
+            value === "Daily Hunt" || value === "Skelion Daily" ? value : null,
+          )
+        }
+        value={activeTab}
+      >
         <Tabs.List>
           <Tabs.Tab value="Daily Hunt">
             <Text size="xl">Noisy Neighbours (Coin Daily)</Text>
