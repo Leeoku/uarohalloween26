@@ -2,4 +2,4 @@ name = "uarohalloween26"
 # Set this to today's date
 compatibility_date = "2026-10-31"
 [assets]
-directory = "./dist"
+not_found_handling = "single-page-application"

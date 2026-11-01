@@ -2,6 +2,7 @@ import react from '@vitejs/plugin-react';
 import { oxfmt, oxlint } from 'oxc-config-mantine';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig, lazyPlugins } from 'vite-plus';
+import { cloudflare } from "@cloudflare/vite-plugin";
 
 export default defineConfig({
   fmt: {
@@ -23,6 +24,7 @@ export default defineConfig({
   },
   plugins: lazyPlugins(() => [
     react(),
+    cloudflare({ viteEnvironment: { name: "worker" } }),
     {
       ...visualizer({ filename: 'dist/stats.html', gzipSize: true, open: true }),
       apply: (_config, { mode }) => mode === 'analyze',
