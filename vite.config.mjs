@@ -24,7 +24,7 @@ export default defineConfig({
   },
   plugins: lazyPlugins(() => [
     react(),
-    cloudflare({ viteEnvironment: { name: "worker" } }),
+    cloudflare(),
     {
       ...visualizer({ filename: 'dist/stats.html', gzipSize: true, open: true }),
       apply: (_config, { mode }) => mode === 'analyze',
